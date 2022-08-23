@@ -34,7 +34,7 @@
     "mechanism": "Кварцевый",
     "case_material": "Cталь",
     "waterproof": "100м (Плавание и ныряние без акваланга)",
-    "warranty": "24",
+    "warranty": 24,
     "quantity": 21,
     "category": 2
   }
@@ -58,7 +58,7 @@
     "mechanism": "Кварцевый",
     "case_material": "Cталь",
     "waterproof": "50WR",
-    "warranty": "24",
+    "warranty": 24,
     "quantity": 12,
     "category": 1
   }
@@ -82,7 +82,7 @@
     "mechanism": "Механика с автоподзаводом",
     "case_material": "Кожа",
     "waterproof": "30WR",
-    "warranty": "12",
+    "warranty": 12,
     "quantity": 4,
     "category": 1
   }
@@ -106,7 +106,7 @@
     "mechanism": "Кварцевый",
     "case_material": "Cталь",
     "waterproof": "30WR",
-    "warranty": "12",
+    "warranty": 12,
     "quantity": 5,
     "category": 1
   }
@@ -130,7 +130,7 @@
     "mechanism": "Кварцевый",
     "case_material": "Полимер",
     "waterproof": "Погружение до 100 метров (стандарт EN13319)",
-    "warranty": "12",
+    "warranty": 12,
     "quantity": 7,
     "category": 1
   }
@@ -154,7 +154,7 @@
     "mechanism": "Perpetual, механический хронограф, автоматический подзавод",
     "case_material": "Золото",
     "waterproof": "До 100 м",
-    "warranty": "70",
+    "warranty": 70,
     "quantity": 1,
     "category": 1
   }
@@ -202,19 +202,9 @@
     "mechanism": "Perpetual, автоматический подзавод",
     "case_material": "Сталь",
     "waterproof": "До 100 м",
-    "warranty": "70",
-    "quantity": "",
+    "warranty": 70,
+    "quantity": 2,
     "category": 1
-  }
-},
-{
-  "model": "product.basket",
-  "pk": 33,
-  "fields": {
-    "user": 6,
-    "product": 3,
-    "quantity": 1,
-    "created_timestamp": "2022-08-22T19:41:32.160Z"
   }
 },
 {
