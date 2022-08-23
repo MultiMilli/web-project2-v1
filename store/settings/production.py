@@ -146,7 +146,11 @@ STATICFILES_DIRS = (
 )
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+# MEDIA_ROOT = BASE_DIR / 'media'
+
+STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+MEDIA_ROOT = BASE_DIR.joinpath('media')
 
 #Email
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
@@ -166,4 +170,3 @@ LOGIN_URL = '/users/login/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
