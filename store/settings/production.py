@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SECRET_KEY = SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['web-project2-v1.herokuapp.com']
 
@@ -147,9 +147,6 @@ STATICFILES_DIRS = (
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
-MEDIAFILES_DIRS = (
-    BASE_DIR / 'media',
-)
 
 #Email
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
@@ -169,4 +166,4 @@ LOGIN_URL = '/users/login/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATIC_ROOT = BASE_DIR.joinpath('staticfiles')
+STATIC_ROOT = BASE_DIR / "staticfiles"
