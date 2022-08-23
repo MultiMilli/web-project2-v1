@@ -203,7 +203,7 @@
     "case_material": "Сталь",
     "waterproof": "До 100 м",
     "warranty": 70,
-    "quantity": "",
+    "quantity": 2,
     "category": 1
   }
 },
@@ -363,4 +363,3 @@
   }
 }
 ]
-
