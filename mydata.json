@@ -187,7 +187,7 @@
   "model": "product.product",
   "pk": 10,
   "fields": {
-    "image": "product_images/prod_08_1.jpg",
+    "image": "media/product_images/prod_08_1.jpg",
     "image1": "product_images/prod_08_2.jpg",
     "image2": "product_images/prod_08_3.jpg",
     "image3": "product_images/prod_08_4.jpg",
